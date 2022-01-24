@@ -19,6 +19,7 @@ public class ServerMain {
 
     // Create a server that listens on port 8080.
     Server server = new Server(8080);
+    System.out.println("localhost:8080");
     WebAppContext webAppContext = new WebAppContext();
     server.setHandler(webAppContext);
 
