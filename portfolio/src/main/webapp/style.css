@@ -1,9 +1,43 @@
 #content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
-}
-
-#greeting-container {
-  margin-top: 20px;
-}
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #greeting-container {
+    margin-top: 20px;
+  }
+  
+  #intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #urls {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #galery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #galery ul {
+    list-style-type: none;
+  }
+  
+  #galery img {
+    width: 100%;
+    height: auto;
+  }
+  
