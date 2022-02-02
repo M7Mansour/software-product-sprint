@@ -12,6 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+const button = document.getElementById('fetch-btn');
+
 /**
  * Adds a random greeting to the page.
  */
@@ -26,3 +28,14 @@ function addRandomGreeting() {
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
 }
+
+async function fetchName() {
+  const response = await fetch('/hello');
+  const name = await response.text();
+  const nameContainer = document.getElementById('fetched-content');
+  nameContainer.innerHTML = name;
+}
+
+button.addEventListener('click', () => {
+  fetchName();
+});

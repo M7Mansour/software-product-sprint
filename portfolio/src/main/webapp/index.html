@@ -1,19 +1,168 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+      <div id="intro">
+        <div id="fetched-content">
+          <button id="fetch-btn">press me</button>
+        </div>
+        <h1>My Portfolio</h1>
+        <img
+          src="./Images/66872717.png"
+          alt="profile image"
+          style="margin-bottom: 20px"
+        />
+        <div id="urls">
+          <a href="https://github.com/M7Mansour">GitHub</a>
+          <a href="https://www.linkedin.com/in/mohammad-h-mansour-ab23961b3/"
+            >LinkedIn</a
+          >
+        </div>
+        <p>
+          Hi, I'm Mohammad Mansour, Computer Engineer & Software Developer from
+          Palestine
+        </p>
+        <p>
+          I'm currently studying for a Bachelor's degree in Islamic University
+          of Gaza Computer Engineering Department
+        </p>
+        <p>I am a GSG Code Academy BootCamp graduate</p>
+        <p>I love writing code and learn anythings about it</p>
+        <p>
+          Ask me anything about from
+          <a href="https://github.com/M7Mansour/M7Mansour/issues">Here</a>
+        </p>
+        <p>
+          How to reach me:
+          <a
+            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=+mdmansour2000@gmail.com"
+            >mdmansour2000@gmail.com</a
+          >
+        </p>
+      </div>
+      <div id="projects">
+        <h2>Software projects</h2>
+        <ul>
+          <li>
+            <h3>
+              <a href="https://github.com/M7Mansour/food-hub">Food-Hub</a>
+            </h3>
+            <ul>
+              <li>
+                Built a web app for restaurants to showcase their meals and
+                services for clients to order any food they want and deliver it
+                to a specific location.
+              </li>
+              <li>Built using Express.js, React.js, and sequelize.</li>
+            </ul>
+          </li>
+          <li>
+            <h3>
+              <a href="https://github.com/M7Mansour/M7M-Reddit">Reddit Clone</a>
+            </h3>
+            <ul>
+              <li>
+                Collaborated with my classmate to build a look like Reddit
+                website using React.js and Node.js.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3>
+              <a href="https://github.com/M7Mansour/egy-film">Egy Film</a>
+            </h3>
+            <ul>
+              <li>
+                Built a website to view and search for movies info and ratings
+                in good-looking design, features, and user experience.
+              </li>
+              <li>
+                Integrated TMDB API to fetch movies with an auto-update feature.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3><a href="https://github.com/M7Mansour/MA_OCR">MA OCR</a></h3>
+            <ul>
+              <li>
+                Created an online interface of an OCR API that extracts text
+                from images using DIP technology.
+              </li>
+              <li>
+                Created an online interface of an OCR API that extracts text
+                from images using DIP technology.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="galery">
+        <h2>Galery</h2>
+        <ul>
+          <li>
+            <img
+              src="https://thoughtcatalog.com/wp-content/uploads/2013/07/oehfherkjfger.jpg"
+              alt="image"
+              style="width: 300px; height: 200px"
+            />
+          </li>
+          <li>
+            <img
+              src="https://thoughtcatalog.com/wp-content/uploads/2013/07/hfekjhekhrgjkfehr.jpg"
+              alt="image"
+              style="width: 300px; height: 200px"
+            />
+          </li>
+          <li>
+            <img
+              src="https://thoughtcatalog.com/wp-content/uploads/2013/07/sdkfhkjsdfhds.jpg"
+              alt="image"
+              style="width: 300px; height: 200px"
+            />
+          </li>
+          <li>
+            <img
+              src="https://thoughtcatalog.com/wp-content/uploads/2013/07/fgehrkgjekrjghrk.jpg"
+              alt="image"
+              style="width: 300px; height: 200px"
+            />
+          </li>
+          <li>
+            <img
+              src="https://thoughtcatalog.com/wp-content/uploads/2013/07/lkgkjhdfghdfkg.jpg"
+              alt="image"
+              style="width: 300px; height: 200px"
+            />
+          </li>
+          <li>
+            <img
+              src="https://thoughtcatalog.com/wp-content/uploads/2013/07/dkfjhgkhfgdfhgkj.jpg"
+              alt="image"
+              style="width: 300px; height: 200px"
+            />
+          </li>
+          <li>
+            <img
+              src="https://thoughtcatalog.com/wp-content/uploads/2013/07/fhgherkekjrhg.jpg"
+              alt="image"
+              style="width: 300px; height: 200px"
+            />
+          </li>
+          <li>
+            <img
+              src="https://thoughtcatalog.com/wp-content/uploads/2013/07/dofhghfdkhgkjdfhkg.jpg"
+              alt="image"
+              style="width: 300px; height: 200px"
+            />
+          </li>
+        </ul>
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
